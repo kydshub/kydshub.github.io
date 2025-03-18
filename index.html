@@ -3,17 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KYDS</title>
+    <title>KYDS Portfolio</title>
+    <style>
+        /* Modern business style color palette */
+        :root {
+            --primary-color: #1a1a2e; /* Dark navy blue */
+            --secondary-color: #16213e; /* Deeper navy */
+            --accent-color: #0fbcf9; /* Bright blue accent */
+            --background-color: #f5f5f5; /* Light gray */
+            --text-color: #333333; /* Deep gray */
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .project {
+            background-color: var(--secondary-color);
+            color: white;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            background-color: var(--primary-color);
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <!--ABOUT SECTION-->
-    <h1>HELLO WORLD!</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <!--PROJECTS SECTION-->
-    <h1>PROJECTS</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <!--CONTACTS SECTION-->
-    <h1>CONTACTS</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <header>
+        <h1>KYDS Portfolio</h1>
+        <p>It is what it is</p>
+    </header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hi there! I’m Kimscey Yvan D. Sulit, aka KYDS and this portfolio is a delightful concoction of curiosity, caffeine, and a dash of “let’s see if this works.”</p>
+        <p>Currently, I’m diving into the world of web app development, mostly for fun and partly as an experiment to flex my brain muscles. Think of this portfolio as my playground—a digital sandbox where I’m testing ideas, breaking things (intentionally, of course), and learning how to fix them again.</p>
+        <p>When I’m not busy clicking away on my keyboard, you’ll probably find me deep in thought, wondering if coding errors are just the universe’s way of keeping me humble. This is a space to showcase some of my projects, try out cool design tricks, and maybe even convince you that I sort of know what I’m doing. (Spoiler: I totally do. Most of the time.)</p>
+        <p>Stay tuned for updates, as this portfolio evolves just like my coding skills—slowly but surely, with the occasional stroke of genius. Enjoy your visit!</p>
+
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Short description of the project.</p>
+            <a href="https://github.com/yourusername/project" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Another Project</h3>
+            <p>Description of your second project.</p>
+            <a href="https://github.com/yourusername/anotherproject" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kimscey Yvan D. Sulit</p>
+    </footer>
 </body>
 </html>
